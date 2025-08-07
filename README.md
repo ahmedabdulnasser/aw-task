@@ -138,7 +138,6 @@ src/
 ### Authentication System
 
 - **Simple Login/Logout**: No username/password required (as per specifications)
-- **Session-based Authentication**: Maintains user state
 - **Protected Routes**: Dashboard only accessible to logged-in users
 - **RequireAuth HOC**: Redirects unauthorized users to login page
 
@@ -379,7 +378,6 @@ The application supports both English and Arabic with:
 
 ### Authentication Strategy
 
-- **Simplified Authentication**: Session-based auth without credentials as specified
 - **HOC Pattern**: Reusable authentication wrapper for protected routes
 - **Redux State**: Centralized authentication state management
 
